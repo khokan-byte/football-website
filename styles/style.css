@@ -1,0 +1,231 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+/* common style */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 1440px;
+    height: 677px;
+    background-color: #ffff;
+    margin: auto;
+}
+
+/* section */
+
+.container{
+    display: flex;
+    align-items: center;
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 250px;
+    justify-content: center;
+}
+
+
+
+
+}
+.container :hover{
+    transform: scale(.98);
+    transition: ease-in-out;
+}
+
+
+
+.container img{
+    width: 555px;
+    height: 438px;
+    margin-top: 153px;
+    margin-left: 145px;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    background:#E02C6D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 168px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 24px;
+    left: 156px;
+    top: 464px;
+    border-radius: 10px;
+    margin-left: 156px;
+ }
+
+ .button:hover{
+     background-color: slateblue;
+ }
+.league-name{
+    color: white;
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+    font-weight: bold;
+    line-height: 80px;
+    margin-left: 155px;
+    margin-top: 207px;
+}
+
+.group1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 30px;
+    margin-left: 180px;
+    
+}
+
+.players{
+    margin-top: 70px;
+    /* background-color: lightblue; */
+    
+}
+.players-bio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-column-gap:30px */
+       
+}
+.thumbnail {
+    background-color: white;
+    box-shadow: 10px 10px 30px grey;
+}
+
+.players-card{
+    background-color: gray;
+    
+    width: 330px;
+    height: 474px;
+}
+
+h2{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+p{
+    margin-left: 15px;
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+.players-info{
+    width: 300px;
+    height: 426px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+.players-bio .players-card{
+    background-color: white;
+}
+
+.thumbnail img{
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
+
+
+.hightlights{
+    margin-top: 224px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal ;
+}
+hr{
+    border: 2px dashed gray;
+    width: 1050px;
+}
+.match-highlights{
+    width: 50%;
+    float: left;
+    /* width: 472px;
+    height: 310px; */
+    
+}
+.match-highlights h1{
+    width: 472px;
+}
+
+.match-highlights a{
+    margin-left: 20px;
+}
+
+
+.hightlights{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* margin-top: 2890px; */
+    margin-left: 180px;
+    
+}
+.live-match img{
+    margin-left: 90px;
+}
+
+.hightlights img{
+    width: 567px;
+    height: 427px;
+    margin-right: 155px;
+    
+}
+
+.bottom-part img{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 480px;
+    height: 110px;
+    margin-top: 160px;
+    opacity: 1;   
+}
+
+.bottom-part img:hover{
+    opacity:0;
+    transition: opacity .2s ease-out;
+}
+ .social-handle{
+     width: 170px;
+     height: 32px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     margin-left: 632px;
+ }
+.social-handle .fab{
+    font-size: 20px;
+}
+.fa-facebook-square{
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
