@@ -223,11 +223,14 @@ footer{
 
 /* Responsiveness */
 
-
-
-
-
-
-
-
-
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+    .group1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hightlights {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column; 
+    }
