@@ -11,7 +11,8 @@ body{
     margin: auto;
 }
 
-/* section */
+/* top section */
+
 
 .container{
     display: flex;
@@ -20,23 +21,7 @@ body{
     width: 1440px;
     height: 677px;
 
-.players{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 250px;
-    justify-content: center;
 }
-
-
-
-
-}
-.container :hover{
-    transform: scale(.98);
-    transition: ease-in-out;
-}
-
-
 
 .container img{
     width: 555px;
@@ -44,6 +29,18 @@ body{
     margin-top: 153px;
     margin-left: 145px;
 }
+
+.top-left{
+    color: white;
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+    font-weight: bold;
+    line-height: 80px;
+    margin-left: 155px;
+    margin-top: 207px;
+}
+
 .button{
     color: white;
     text-decoration: none;
@@ -64,18 +61,30 @@ body{
     margin-left: 156px;
  }
 
- .button:hover{
-     background-color: slateblue;
- }
-.league-name{
-    color: white;
-    font-size: 64px;
-    width: 485px;
-    height: 230px;
-    font-weight: bold;
-    line-height: 80px;
-    margin-left: 155px;
-    margin-top: 207px;
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 250px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+
+
+/* transition and effect */
+.container :hover{
+    transform: scale(.98);
+    transition: ease-in-out;
+}
+
+.button:hover{
+    background-color: slateblue;
+}
+
+.bottom-part img:hover{
+    opacity:0;
+    transition: opacity .2s ease-out;
 }
 
 .group1{
@@ -87,15 +96,10 @@ body{
     
 }
 
-.players{
-    margin-top: 70px;
-    /* background-color: lightblue; */
-    
-}
 .players-bio{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-column-gap:30px */
+    
        
 }
 .thumbnail {
@@ -154,12 +158,10 @@ hr{
     border: 2px dashed gray;
     width: 1050px;
 }
+
 .match-highlights{
     width: 50%;
     float: left;
-    /* width: 472px;
-    height: 310px; */
-    
 }
 .match-highlights h1{
     width: 472px;
@@ -174,7 +176,6 @@ hr{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /* margin-top: 2890px; */
     margin-left: 180px;
     
 }
@@ -199,10 +200,7 @@ hr{
     opacity: 1;   
 }
 
-.bottom-part img:hover{
-    opacity:0;
-    transition: opacity .2s ease-out;
-}
+
  .social-handle{
      width: 170px;
      height: 32px;
@@ -221,6 +219,10 @@ hr{
 footer{
     text-align: center;
 }
+
+
+/* Responsiveness */
+
 
 
 
